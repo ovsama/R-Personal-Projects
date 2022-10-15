@@ -86,7 +86,7 @@ vis <- function(var) {
 }
 
 
-# What is the frequency of number of victims ?
+# What is the frequency of the number of victims ?
 vis(x$victims)
 
 # What are the most frequent hate crime's motivations ?
