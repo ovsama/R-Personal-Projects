@@ -1,4 +1,12 @@
+# This project aims at performing an exploratory data analysis of a data set  from  Bloomington Police Department (Indiana, USA) 
+#cases where a hate or bias crime has been reported from 02/06/2016 to 02/25/2022.
+
+# The dataset has been retrevied directly from the Data Gov website  (url: https://catalog.data.gov/dataset/hate-crimes).
+#--------------------------------------------------------------------------------------------------------------------------------------
+
+
 # Here we go !
+
 
 # Setting the working directory to the location of the data set file.
 setwd("C:/Users/OS/Desktop")
