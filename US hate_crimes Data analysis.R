@@ -19,15 +19,13 @@ dim(x)
 head(x)
 tail(x)
 
+# Check to see if there are missing data?
+sum(is.na(x))
+
 #Get a larger set of statistics (a broader overview)
 install.packages("skimr")
 library(skimr)
 skim(x)
-
-
-# Check to see if there are missing data?
-sum(is.na(x))
-
 
 #____________________
 # Data transformation
@@ -39,7 +37,7 @@ x$motivation
 #that can be grouped in one single category: "Anti-LGBT+".
 
 # So to make things simple, we choose to integrate the 3 modalities ("Anti-Gay"/ "Anti-Homosexual Male"/ "Anti-Male Homosexual") within
-#the "Anti-LGBT+"modality.
+#the "Anti-LGBT+" modality.
 
 x$motivation[7] <- "Anti-Homosexual Male"
 
